@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #6434eb;
+}
+
+.content {
+  width: 35%;
+  background-color: black;
+  /* height: 600px; */
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding-bottom: 30px;
+}
+
+.minus {
+  padding: 10px 20px;
+  border: 2px solid;
+}
+
+.plus {
+  padding: 10px 20px;
+  border: 2px solid;
+}
+
+.display {
+  padding: 10px 40px;
+  border: 2px solid;
+}
